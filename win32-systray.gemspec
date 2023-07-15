@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary = %q{easy to make system tray application for windows}
   spec.description = %q{light weight, forcus for windows}
   spec.homepage = "https://github.com/kmasa/win32-systray"
-  spec.required_ruby_version = Gem::Requirement.new(">= 3.2.2")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["allowed_push_host"] = "https://github.com/kmasa/win32-systray"
 
