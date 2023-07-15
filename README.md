@@ -28,13 +28,13 @@ Win32::Systray.run! do |sys|
   sys.icon = File.join(__dir__, "pnow.ico")
 
   sys.menu do
-    sys.popup "ÉeÉXÉg1" do
-      sys.item "ÉeÉXÉg2" do
+    sys.popup "„ÉÜ„Çπ„Éà1" do
+      sys.item "„ÉÜ„Çπ„Éà2" do
         puts "hi test2"
       end
     end
     sys.separator
-    sys.item "èIóπ" do
+    sys.item "ÁµÇ‰∫Ü" do
       sys.quit
     end
   end
